@@ -1,0 +1,27 @@
+[
+  {
+    "id": "udemo001",
+    "name": "Demo LifeLink User",
+    "email": "demo@lifelink.test",
+    "role": "donor",
+    "passwordHash": "b0514d874746760a97c1ba3e1650e4a38bc18200968f2aac31bfd6a4867d8b51f2a0a611b9758981dc10a6475d1dc271bf4913bf495aae57636cae904314515c",
+    "salt": "df1a7e42849b01d9e2823c8b3fd4ab77",
+    "verified": true,
+    "createdAt": "2026-10-03T00:00:00.000Z",
+    "donorId": "dDemo",
+    "profile": {
+      "name": "Demo LifeLink User",
+      "age": 25,
+      "bloodGroup": "O+",
+      "city": "Chennai",
+      "area": "Velachery",
+      "pin": "600042",
+      "phone": "9876543210",
+      "email": "demo@lifelink.test",
+      "lastDonation": "2026-06-15",
+      "available": true,
+      "lat": 12.9815,
+      "lng": 80.218
+    }
+  }
+]

@@ -1,0 +1,13 @@
+LIFELINK - ONE CLICK MOBILE ACCESS
+
+1. Connect laptop and Android/iPhone to the same Wi-Fi.
+2. Double-click OPEN-ON-MOBILE.bat.
+3. The window will automatically display the exact Mobile URL, for example:
+   http://192.168.1.8:5173
+4. Open that URL on your phone.
+5. Keep the LifeLink backend/frontend command windows running.
+
+IMPORTANT:
+- Do not use http://localhost:5173 on the phone.
+- If Windows Firewall asks about Node.js, allow access on your Private network.
+- If the phone still cannot connect, make sure both devices are on the same Wi-Fi and that the Wi-Fi does not use client/AP isolation.

@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: lifelink-blood-donor-finder
+    runtime: node
+    buildCommand: npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: MONGO_URI
+        sync: false

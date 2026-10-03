@@ -1,0 +1,25 @@
+LIFELINK — PUBLIC HTTPS DEPLOYMENT
+
+Project title: LifeLink | Blood Donor Finder
+
+The project is prepared for a single-service deployment. Express serves the React production build and the API from the same HTTPS domain. The frontend defaults to /api, so you do not need localhost or port 5000 after deployment.
+
+REQUIRED FOR A PUBLIC WEBSITE
+A public HTTPS address cannot be created by a ZIP file alone. The project must be deployed to a hosting provider. A hosting service such as Render can deploy this repository and automatically provide an HTTPS URL. MongoDB Atlas can provide the production database.
+
+DEPLOY STEPS
+1. Create a GitHub repository and upload this project.
+2. Create a MongoDB Atlas database and copy its connection string.
+3. Create a Render Web Service from the GitHub repository.
+4. Build command: npm run build
+5. Start command: npm start
+6. Environment variable: MONGO_URI = your MongoDB Atlas connection string.
+7. Deploy. Render provides an HTTPS URL.
+8. Open that HTTPS URL from laptop, Android, iPhone, or any other device.
+
+IMPORTANT
+- Do not use http://localhost:5173 for public access.
+- Do not use the laptop LAN address for public access.
+- The final public address should start with https://.
+- Never put MongoDB credentials in frontend files or GitHub.
+- The application is a software directory/matching aid and does not replace hospital blood-bank compatibility testing.

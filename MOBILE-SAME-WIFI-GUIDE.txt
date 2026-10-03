@@ -1,0 +1,17 @@
+LIFELINK - LAPTOP + ANDROID/iPHONE ON THE SAME WI-FI
+
+1. Extract the ZIP on the laptop.
+2. Connect the laptop and phone to the same Wi-Fi network.
+3. Double-click OPEN-ON-SAME-WIFI.bat.
+4. The window will display two addresses:
+   Laptop: http://localhost:5173
+   Mobile:  http://YOUR-LAPTOP-IP:5173
+5. The laptop page opens automatically.
+6. On Android Chrome or iPhone Safari, type the displayed Mobile address exactly.
+7. Keep the backend and frontend command windows open while using the site.
+
+If mobile cannot connect:
+- Make sure both devices are on the same Wi-Fi.
+- Do not use localhost on the phone.
+- When Windows Firewall asks, allow Node.js on Private networks.
+- Some college/office/public Wi-Fi networks block device-to-device traffic. Use a normal home/mobile hotspot Wi-Fi if needed.
